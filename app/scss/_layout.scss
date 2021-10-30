@@ -21,7 +21,6 @@ body{
     margin: auto;
     justify-items: left;
     max-width: 33rem;
-    height: 100%;
 
     h1{
         margin: 0.5em 0;
@@ -32,7 +31,6 @@ body{
         }
 }
 
-
 @media (min-width:50rem) {
 
     body{
@@ -42,4 +40,8 @@ body{
         display: flex;
         margin: auto;
     }
+    p{
+        padding-bottom: 3em;
+    }
+
 }
