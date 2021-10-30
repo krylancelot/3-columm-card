@@ -1,0 +1,44 @@
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.attribution{
+    text-align: center;
+    max-height: 2em;
+}
+
+.card-container{
+    margin:5em auto;
+}
+
+.card{
+    display: grid;
+    padding: 2.4em;
+    margin: auto;
+    justify-items: left;
+    max-width: 33rem;
+
+    h1{
+        margin: 0.5em 0;
+        }
+        p{
+            margin: 0.5em 0;
+            padding-right: 1.5em ;
+        }
+}
+
+
+@media (min-width:50rem) {
+
+    body{
+       height: 100vh;
+    }
+    .card-container{
+        display: flex;
+        margin: auto;
+    }
+}

@@ -1,0 +1,41 @@
+@use 'util' as * ;
+body{
+    background-color:var(--gray);
+    font-family:var(--font-family-400);
+    font-size: 1.5rem;
+  }
+
+#card1{
+    color: var(--orange);
+    background: var(--orange);
+
+}
+
+#card2{
+    color: var(--cyan);
+    background: var(--cyan);
+
+}
+#card3{
+    color: var(--dark-cyan);
+    background: var(--dark-cyan);
+
+}
+
+.card {
+  h1,p{
+    color: var(--gray);
+  }
+  h1{
+    font-family:var(--font-family-700);
+    font-size: 4.2rem;
+  }
+
+}
+
+.attribution{
+  a{
+    text-decoration: none;
+
+  }
+}
